@@ -12,6 +12,8 @@
 		DCF5C782203DCE9500F51D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF5C780203DCE9500F51D22 /* Main.storyboard */; };
 		DCF5C784203DCE9500F51D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF5C783203DCE9500F51D22 /* Assets.xcassets */; };
 		DCF5C787203DCE9500F51D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF5C785203DCE9500F51D22 /* LaunchScreen.storyboard */; };
+		DCF5C78F203DD3F000F51D22 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5C78E203DD3F000F51D22 /* FirstViewController.swift */; };
+		DCF5C791203DD3FE00F51D22 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5C790203DD3FE00F51D22 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DCF5C783203DCE9500F51D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF5C786203DCE9500F51D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCF5C788203DCE9500F51D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF5C78E203DD3F000F51D22 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DCF5C790203DD3FE00F51D22 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DCF5C783203DCE9500F51D22 /* Assets.xcassets */,
 				DCF5C785203DCE9500F51D22 /* LaunchScreen.storyboard */,
 				DCF5C788203DCE9500F51D22 /* Info.plist */,
+				DCF5C78E203DD3F000F51D22 /* FirstViewController.swift */,
+				DCF5C790203DD3FE00F51D22 /* SecondViewController.swift */,
 			);
 			path = ChildViewControllerInScrollView;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF5C791203DD3FE00F51D22 /* SecondViewController.swift in Sources */,
+				DCF5C78F203DD3F000F51D22 /* FirstViewController.swift in Sources */,
 				DCF5C77F203DCE9500F51D22 /* ViewController.swift in Sources */,
 				DCF5C77D203DCE9500F51D22 /* AppDelegate.swift in Sources */,
 			);

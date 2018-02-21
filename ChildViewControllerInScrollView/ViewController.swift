@@ -44,10 +44,10 @@ class ViewController: UIViewController {
         switch sender.selectedSegmentIndex {
         case 0:
             presentSubViewController(firstVC)
-            scrollView.contentSize = CGSize(width: self.view.frame.width, height: 980)
+            //scrollView.contentSize = CGSize(width: self.view.frame.width, height: 980)
         case 1:
             presentSubViewController(secondVC)
-            scrollView.contentSize = CGSize(width: self.view.frame.width, height: self.view.frame.height)
+            //scrollView.contentSize = CGSize(width: self.view.frame.width, height: self.view.frame.height)
         default: fatalError()
         }
         
@@ -65,6 +65,7 @@ class ViewController: UIViewController {
         
         if let new = new as? Scrollable & Containable {
             print(#function, "new view is Scrollable & Containable with size", new.scrollableSize)
+            scrollView.contentSize = new.scrollableSize
         }
     }
 }

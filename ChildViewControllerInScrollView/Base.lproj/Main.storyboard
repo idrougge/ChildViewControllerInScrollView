@@ -33,7 +33,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZY3-hq-2L5">
                                 <rect key="frame" x="0.0" y="56" width="375" height="611"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lUz-3e-sLS" userLabel="ContainerView">
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lUz-3e-sLS" userLabel="ContainerView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="611"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>

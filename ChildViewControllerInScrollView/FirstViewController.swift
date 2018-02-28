@@ -19,6 +19,9 @@ class FirstViewController: UIViewController, Scrollable, Containable {
     
     @IBAction func didPressTop(_ sender: Any) {
         print(type(of: self), #function)
+        let second = storyboard!.instantiateViewController(withIdentifier: "second")
+        parent?.addChildViewController(second)
+        parent?.transition(from: self, to: second, duration: 2, options: UIViewAnimationOptions.transitionCrossDissolve, animations: nil, completion: {success in print("Transitioned successfully: \(success)")})
     }
     @IBAction func didPressMiddle(_ sender: Any) {
         print(type(of: self), #function)
